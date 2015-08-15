@@ -14,13 +14,14 @@
         <!-- 状态栏颜色 -->
         <item name="colorPrimaryDark">@color/colorPrimary</item>
         <!-- toolbar标题颜色 -->
-        <!--<item name="android:textColorPrimary">@color/white</item>-->
+        <item name="android:textColorPrimary">@color/white</item>
         <!-- 窗口的背景颜色 -->
         <item name="android:windowBackground">@color/window_background</item>
-        <!--&lt;!&ndash; translucent system bars&ndash;&gt;-->
-        <!--<item name="android:windowTranslucentStatus" >true</item>-->
+        <!-- translucent system bars-->
+        <item name="android:windowTranslucentStatus" >true</item>
         <!--<item name="android:windowTranslucentNavigation">true</item>-->
-        <!--<item name="android:fitsSystemWindows">true</item>-->
+        <item name="android:fitsSystemWindows">true</item>
     </style>
 
 </resources>
+

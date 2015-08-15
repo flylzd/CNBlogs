@@ -19,7 +19,26 @@ android {
     }
 }
 
+repositories {
+//    mavenCentral()
+
+    flatDir {
+        dirs 'libs' //this way we can find the .aar file in libs folder
+    }
+}
+
+
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile 'com.android.support:design:22.2.0'
     compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.android.support:recyclerview-v7:22.1.0'
+    compile 'com.android.support:cardview-v7:22.1.0'
+
+//    compile 'com.jakewharton:butterknife:7.0.0'
+//    compile 'de.greenrobot:eventbus:2.4.0'
+//    compile 'com.orhanobut:logger:1.8'
+
+    compile(name: 'logger-1.11', ext: 'aar')
 }
